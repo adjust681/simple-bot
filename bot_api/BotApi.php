@@ -33,8 +33,8 @@
 
 			if ($this->isCommandBot($message, "/start")) {
 				$str = $this->replaceText("{User}", $arrData, Message::$hi);
-                $this->sendUser($str, $chat_id, true);
-                $this->sendUser(Message::$start, $chat_id, true);
+                                $this->sendUser($str, $chat_id, true);
+                                $this->sendUser(Message::$start, $chat_id, true);
 			}
 
 			else if ($this->isCommandBot($message, "/help")) {
