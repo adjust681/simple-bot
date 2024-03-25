@@ -5,7 +5,7 @@
 	{
 		public function processMessage($data) {
 
-			//region JSON ENCODE
+			//region JSON DECODE
 
 			$arrData       = $this->decodeJson($data);
 
@@ -18,7 +18,7 @@
 			$fl_name       = $this->getFirstLastName($arrData);
 			$username      = $this->getUsername($arrData);
 
-			//endregion JSON ENCODE
+			//endregion JSON DECODE
 
 			//region LINGUAGE SWITCH
 
