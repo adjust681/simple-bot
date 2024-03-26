@@ -2,7 +2,7 @@
 ```php
 edit variables value into simple-bot/admin/IdentificatorBot.php:
     $bot_token, $bot_url;
-edit variable for certificate exist:
+edit variable value for certificate exist:
     static string $ssl_cert = /etc/ssl/certificate.pem;
 ```
 ## Registration:
